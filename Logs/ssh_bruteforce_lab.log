@@ -1,0 +1,142 @@
+Jun 10 14:00:01 ip-172-31-12-45 CRON[1101]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:00:01 ip-172-31-12-45 CRON[1101]: pam_unix(cron:session): session closed for user root
+Jun 10 14:03:12 ip-172-31-12-45 sshd[1142]: Accepted publickey for ubuntu from 203.0.113.45 port 51234 ssh2: RSA SHA256:xyz123...
+Jun 10 14:03:12 ip-172-31-12-45 sshd[1142]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jun 10 14:03:12 ip-172-31-12-45 systemd-logind[482]: New session 12 of user ubuntu.
+Jun 10 14:05:01 ip-172-31-12-45 CRON[1188]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:05:01 ip-172-31-12-45 CRON[1188]: pam_unix(cron:session): session closed for user root
+Jun 10 14:06:22 ip-172-31-12-45 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun 10 14:06:22 ip-172-31-12-45 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Jun 10 14:06:25 ip-172-31-12-45 sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 14:08:11 ip-172-31-12-45 sshd[1204]: Invalid user admin from 185.231.54.12 port 38472
+Jun 10 14:08:11 ip-172-31-12-45 sshd[1204]: Failed password for invalid user admin from 185.231.54.12 port 38472 ssh2
+Jun 10 14:08:12 ip-172-31-12-45 sshd[1204]: Connection closed by invalid user admin 185.231.54.12 port 38472 [preauth]
+Jun 10 14:08:15 ip-172-31-12-45 sshd[1206]: Invalid user admin from 185.231.54.12 port 38486
+Jun 10 14:08:15 ip-172-31-12-45 sshd[1206]: Failed password for invalid user admin from 185.231.54.12 port 38486 ssh2
+Jun 10 14:08:16 ip-172-31-12-45 sshd[1206]: Connection closed by invalid user admin 185.231.54.12 port 38486 [preauth]
+Jun 10 14:08:19 ip-172-31-12-45 sshd[1209]: Invalid user administrator from 185.231.54.12 port 38502
+Jun 10 14:08:19 ip-172-31-12-45 sshd[1209]: Failed password for invalid user administrator from 185.231.54.12 port 38502 ssh2
+Jun 10 14:08:20 ip-172-31-12-45 sshd[1209]: Connection closed by invalid user administrator 185.231.54.12 port 38502 [preauth]
+Jun 10 14:08:24 ip-172-31-12-45 sshd[1212]: Failed password for root from 185.231.54.12 port 38514 ssh2
+Jun 10 14:08:25 ip-172-31-12-45 sshd[1212]: Connection closed by authenticating user root 185.231.54.12 port 38514 [preauth]
+Jun 10 14:08:29 ip-172-31-12-45 sshd[1215]: Failed password for root from 185.231.54.12 port 38528 ssh2
+Jun 10 14:08:30 ip-172-31-12-45 sshd[1215]: Connection closed by authenticating user root 185.231.54.12 port 38528 [preauth]
+Jun 10 14:08:34 ip-172-31-12-45 sshd[1218]: Failed password for root from 185.231.54.12 port 38542 ssh2
+Jun 10 14:08:34 ip-172-31-12-45 sshd[1218]: Connection closed by authenticating user root 185.231.54.12 port 38542 [preauth]
+Jun 10 14:08:38 ip-172-31-12-45 sshd[1221]: Invalid user user1 from 185.231.54.12 port 38556
+Jun 10 14:08:38 ip-172-31-12-45 sshd[1221]: Failed password for invalid user user1 from 185.231.54.12 port 38556 ssh2
+Jun 10 14:08:39 ip-172-31-12-45 sshd[1221]: Connection closed by invalid user user1 185.231.54.12 port 38556 [preauth]
+Jun 10 14:08:42 ip-172-31-12-45 sshd[1224]: Invalid user test from 185.231.54.12 port 38570
+Jun 10 14:08:42 ip-172-31-12-45 sshd[1224]: Failed password for invalid user test from 185.231.54.12 port 38570 ssh2
+Jun 10 14:08:43 ip-172-31-12-45 sshd[1224]: Connection closed by invalid user test 185.231.54.12 port 38570 [preauth]
+Jun 10 14:08:48 ip-172-31-12-45 sshd[1227]: Failed password for ubuntu from 185.231.54.12 port 38584 ssh2
+Jun 10 14:08:48 ip-172-31-12-45 sshd[1227]: Connection closed by authenticating user ubuntu 185.231.54.12 port 38584 [preauth]
+Jun 10 14:08:52 ip-172-31-12-45 sshd[1230]: Failed password for ubuntu from 185.231.54.12 port 38598 ssh2
+Jun 10 14:08:53 ip-172-31-12-45 sshd[1230]: Connection closed by authenticating user ubuntu 185.231.54.12 port 38598 [preauth]
+Jun 10 14:09:01 ip-172-31-12-45 sshd[1233]: Invalid user oracle from 185.231.54.12 port 38612
+Jun 10 14:09:01 ip-172-31-12-45 sshd[1233]: Failed password for invalid user oracle from 185.231.54.12 port 38612 ssh2
+Jun 10 14:09:02 ip-172-31-12-45 sshd[1233]: Connection closed by invalid user oracle 185.231.54.12 port 38612 [preauth]
+Jun 10 14:09:06 ip-172-31-12-45 sshd[1236]: Invalid user pi from 185.231.54.12 port 38626
+Jun 10 14:09:06 ip-172-31-12-45 sshd[1236]: Failed password for invalid user pi from 185.231.54.12 port 38626 ssh2
+Jun 10 14:09:07 ip-172-31-12-45 sshd[1236]: Connection closed by invalid user pi 185.231.54.12 port 38626 [preauth]
+Jun 10 14:09:11 ip-172-31-12-45 sshd[1239]: Failed password for root from 185.231.54.12 port 38640 ssh2
+Jun 10 14:09:12 ip-172-31-12-45 sshd[1239]: Connection closed by authenticating user root 185.231.54.12 port 38640 [preauth]
+Jun 10 14:09:16 ip-172-31-12-45 sshd[1242]: Failed password for root from 185.231.54.12 port 38654 ssh2
+Jun 10 14:09:17 ip-172-31-12-45 sshd[1242]: Connection closed by authenticating user root 185.231.54.12 port 38654 [preauth]
+Jun 10 14:09:21 ip-172-31-12-45 sshd[1245]: Invalid user postgres from 185.231.54.12 port 38668
+Jun 10 14:09:21 ip-172-31-12-45 sshd[1245]: Failed password for invalid user postgres from 185.231.54.12 port 38668 ssh2
+Jun 10 14:09:22 ip-172-31-12-45 sshd[1245]: Connection closed by invalid user postgres 185.231.54.12 port 38668 [preauth]
+Jun 10 14:09:26 ip-172-31-12-45 sshd[1248]: Invalid user webmaster from 185.231.54.12 port 38682
+Jun 10 14:09:26 ip-172-31-12-45 sshd[1248]: Failed password for invalid user webmaster from 185.231.54.12 port 38682 ssh2
+Jun 10 14:09:27 ip-172-31-12-45 sshd[1248]: Connection closed by invalid user webmaster 185.231.54.12 port 38682 [preauth]
+Jun 10 14:10:01 ip-172-31-12-45 CRON[1255]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:10:01 ip-172-31-12-45 CRON[1255]: pam_unix(cron:session): session closed for user root
+Jun 10 14:11:05 ip-172-31-12-45 sshd[1260]: Invalid user support from 185.231.54.12 port 38696
+Jun 10 14:11:05 ip-172-31-12-45 sshd[1260]: Failed password for invalid user support from 185.231.54.12 port 38696 ssh2
+Jun 10 14:11:06 ip-172-31-12-45 sshd[1260]: Connection closed by invalid user support 185.231.54.12 port 38696 [preauth]
+Jun 10 14:11:10 ip-172-31-12-45 sshd[1263]: Failed password for root from 185.231.54.12 port 38710 ssh2
+Jun 10 14:11:11 ip-172-31-12-45 sshd[1263]: Connection closed by authenticating user root 185.231.54.12 port 38710 [preauth]
+Jun 10 14:11:15 ip-172-31-12-45 sshd[1266]: Failed password for root from 185.231.54.12 port 38724 ssh2
+Jun 10 14:11:16 ip-172-31-12-45 sshd[1266]: Connection closed by authenticating user root 185.231.54.12 port 38724 [preauth]
+Jun 10 14:11:21 ip-172-31-12-45 sshd[1269]: Invalid user ftpuser from 185.231.54.12 port 38738
+Jun 10 14:11:21 ip-172-31-12-45 sshd[1269]: Failed password for invalid user ftpuser from 185.231.54.12 port 38738 ssh2
+Jun 10 14:11:22 ip-172-31-12-45 sshd[1269]: Connection closed by invalid user ftpuser 185.231.54.12 port 38738 [preauth]
+Jun 10 14:12:44 ip-172-31-12-45 sshd[1275]: Invalid user git from 45.33.22.11 port 59102
+Jun 10 14:12:44 ip-172-31-12-45 sshd[1275]: Failed password for invalid user git from 45.33.22.11 port 59102 ssh2
+Jun 10 14:12:45 ip-172-31-12-45 sshd[1275]: Connection closed by invalid user git 45.33.22.11 port 59102 [preauth]
+Jun 10 14:12:48 ip-172-31-12-45 sshd[1278]: Invalid user deploy from 45.33.22.11 port 59114
+Jun 10 14:12:48 ip-172-31-12-45 sshd[1278]: Failed password for invalid user deploy from 45.33.22.11 port 59114 ssh2
+Jun 10 14:12:49 ip-172-31-12-45 sshd[1278]: Connection closed by invalid user deploy 45.33.22.11 port 59114 [preauth]
+Jun 10 14:14:02 ip-172-31-12-45 sshd[1283]: Invalid user admin from 185.231.54.12 port 38752
+Jun 10 14:14:02 ip-172-31-12-45 sshd[1283]: Failed password for invalid user admin from 185.231.54.12 port 38752 ssh2
+Jun 10 14:14:03 ip-172-31-12-45 sshd[1283]: Connection closed by invalid user admin 185.231.54.12 port 38752 [preauth]
+Jun 10 14:14:07 ip-172-31-12-45 sshd[1286]: Invalid user admin from 185.231.54.12 port 38766
+Jun 10 14:14:07 ip-172-31-12-45 sshd[1286]: Failed password for invalid user admin from 185.231.54.12 port 38766 ssh2
+Jun 10 14:14:08 ip-172-31-12-45 sshd[1286]: Connection closed by invalid user admin 185.231.54.12 port 38766 [preauth]
+Jun 10 14:14:13 ip-172-31-12-45 sshd[1289]: Failed password for root from 185.231.54.12 port 38780 ssh2
+Jun 10 14:14:13 ip-172-31-12-45 sshd[1289]: Connection closed by authenticating user root 185.231.54.12 port 38780 [preauth]
+Jun 10 14:14:18 ip-172-31-12-45 sshd[1292]: Failed password for root from 185.231.54.12 port 38794 ssh2
+Jun 10 14:14:19 ip-172-31-12-45 sshd[1292]: Connection closed by authenticating user root 185.231.54.12 port 38794 [preauth]
+Jun 10 14:14:23 ip-172-31-12-45 sshd[1295]: Invalid user mysql from 185.231.54.12 port 38808
+Jun 10 14:14:23 ip-172-31-12-45 sshd[1295]: Failed password for invalid user mysql from 185.231.54.12 port 38808 ssh2
+Jun 10 14:14:24 ip-172-31-12-45 sshd[1295]: Connection closed by invalid user mysql 185.231.54.12 port 38808 [preauth]
+Jun 10 14:15:01 ip-172-31-12-45 CRON[1302]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:15:01 ip-172-31-12-45 CRON[1302]: pam_unix(cron:session): session closed for user root
+Jun 10 14:15:11 ip-172-31-12-45 sshd[1307]: Invalid user guest from 185.231.54.12 port 38822
+Jun 10 14:15:11 ip-172-31-12-45 sshd[1307]: Failed password for invalid user guest from 185.231.54.12 port 38822 ssh2
+Jun 10 14:15:12 ip-172-31-12-45 sshd[1307]: Connection closed by invalid user guest 185.231.54.12 port 38822 [preauth]
+Jun 10 14:15:17 ip-172-31-12-45 sshd[1310]: Failed password for ubuntu from 185.231.54.12 port 38836 ssh2
+Jun 10 14:15:18 ip-172-31-12-45 sshd[1310]: Connection closed by authenticating user ubuntu 185.231.54.12 port 38836 [preauth]
+Jun 10 14:15:22 ip-172-31-12-45 sshd[1313]: Failed password for root from 185.231.54.12 port 38850 ssh2
+Jun 10 14:15:23 ip-172-31-12-45 sshd[1313]: Connection closed by authenticating user root 185.231.54.12 port 38850 [preauth]
+Jun 10 14:15:28 ip-172-31-12-45 sshd[1316]: Failed password for root from 185.231.54.12 port 38864 ssh2
+Jun 10 14:15:28 ip-172-31-12-45 sshd[1316]: Connection closed by authenticating user root 185.231.54.12 port 38864 [preauth]
+Jun 10 14:15:33 ip-172-31-12-45 sshd[1319]: Invalid user apache from 185.231.54.12 port 38878
+Jun 10 14:15:33 ip-172-31-12-45 sshd[1319]: Failed password for invalid user apache from 185.231.54.12 port 38878 ssh2
+Jun 10 14:15:34 ip-172-31-12-45 sshd[1319]: Connection closed by invalid user apache 185.231.54.12 port 38878 [preauth]
+Jun 10 14:17:10 ip-172-31-12-45 sshd[1324]: Invalid user nagios from 112.85.42.13 port 41002
+Jun 10 14:17:10 ip-172-31-12-45 sshd[1324]: Failed password for invalid user nagios from 112.85.42.13 port 41002 ssh2
+Jun 10 14:17:11 ip-172-31-12-45 sshd[1324]: Connection closed by invalid user nagios 112.85.42.13 port 41002 [preauth]
+Jun 10 14:18:22 ip-172-31-12-45 sshd[1330]: Invalid user user from 185.231.54.12 port 38892
+Jun 10 14:18:22 ip-172-31-12-45 sshd[1330]: Failed password for invalid user user from 185.231.54.12 port 38892 ssh2
+Jun 10 14:18:23 ip-172-31-12-45 sshd[1330]: Connection closed by invalid user user 185.231.54.12 port 38892 [preauth]
+Jun 10 14:18:28 ip-172-31-12-45 sshd[1333]: Invalid user test1 from 185.231.54.12 port 38906
+Jun 10 14:18:28 ip-172-31-12-45 sshd[1333]: Failed password for invalid user test1 from 185.231.54.12 port 38906 ssh2
+Jun 10 14:18:29 ip-172-31-12-45 sshd[1333]: Connection closed by invalid user test1 185.231.54.12 port 38906 [preauth]
+Jun 10 14:18:34 ip-172-31-12-45 sshd[1336]: Failed password for root from 185.231.54.12 port 38920 ssh2
+Jun 10 14:18:35 ip-172-31-12-45 sshd[1336]: Connection closed by authenticating user root 185.231.54.12 port 38920 [preauth]
+Jun 10 14:18:39 ip-172-31-12-45 sshd[1339]: Failed password for root from 185.231.54.12 port 38934 ssh2
+Jun 10 14:18:40 ip-172-31-12-45 sshd[1339]: Connection closed by authenticating user root 185.231.54.12 port 38934 [preauth]
+Jun 10 14:18:44 ip-172-31-12-45 sshd[1342]: Invalid user ftp from 185.231.54.12 port 38948
+Jun 10 14:18:44 ip-172-31-12-45 sshd[1342]: Failed password for invalid user ftp from 185.231.54.12 port 38948 ssh2
+Jun 10 14:18:45 ip-172-31-12-45 sshd[1342]: Connection closed by invalid user ftp 185.231.54.12 port 38948 [preauth]
+Jun 10 14:20:01 ip-172-31-12-45 CRON[1350]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:20:01 ip-172-31-12-45 CRON[1350]: pam_unix(cron:session): session closed for user root
+Jun 10 14:21:55 ip-172-31-12-45 sshd[1356]: Invalid user admin from 185.231.54.12 port 38962
+Jun 10 14:21:55 ip-172-31-12-45 sshd[1356]: Failed password for invalid user admin from 185.231.54.12 port 38962 ssh2
+Jun 10 14:21:56 ip-172-31-12-45 sshd[1356]: Connection closed by invalid user admin 185.231.54.12 port 38962 [preauth]
+Jun 10 14:22:01 ip-172-31-12-45 sshd[1359]: Invalid user admin from 185.231.54.12 port 38976
+Jun 10 14:22:01 ip-172-31-12-45 sshd[1359]: Failed password for invalid user admin from 185.231.54.12 port 38976 ssh2
+Jun 10 14:22:02 ip-172-31-12-45 sshd[1359]: Connection closed by invalid user admin 185.231.54.12 port 38976 [preauth]
+Jun 10 14:22:07 ip-172-31-12-45 sshd[1362]: Failed password for root from 185.231.54.12 port 38990 ssh2
+Jun 10 14:22:08 ip-172-31-12-45 sshd[1362]: Connection closed by authenticating user root 185.231.54.12 port 38990 [preauth]
+Jun 10 14:22:12 ip-172-31-12-45 sshd[1365]: Failed password for root from 185.231.54.12 port 39004 ssh2
+Jun 10 14:22:13 ip-172-31-12-45 sshd[1365]: Connection closed by authenticating user root 185.231.54.12 port 39004 [preauth]
+Jun 10 14:25:01 ip-172-31-12-45 CRON[1372]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 10 14:25:01 ip-172-31-12-45 CRON[1372]: pam_unix(cron:session): session closed for user root
+Jun 10 14:28:10 ip-172-31-12-45 sshd[1142]: Received disconnect from 203.0.113.45 port 51234:11: disconnected by user
+Jun 10 14:28:10 ip-172-31-12-45 sshd[1142]: Disconnected from user ubuntu 203.0.113.45 port 51234
+Jun 10 14:28:10 ip-172-31-12-45 sshd[1142]: pam_unix(sshd:session): session closed for user ubuntu
+Jun 10 14:28:10 ip-172-31-12-45 systemd-logind[482]: Session 12 logged out. Waiting for processes to exit.
+Jun 10 14:28:10 ip-172-31-12-45 systemd-logind[482]: Removed session 12.
+Jun 10 14:31:14 ip-172-31-12-45 sshd[1410]: Accepted publickey for sysadmin from 198.51.100.77 port 48112 ssh2: RSA SHA256:abc987...
+Jun 10 14:31:14 ip-172-31-12-45 sshd[1410]: pam_unix(sshd:session): session opened for user sysadmin(uid=1001) by (uid=0)
+Jun 10 14:31:14 ip-172-31-12-45 systemd-logind[482]: New session 13 of user sysadmin.
+Jun 10 14:32:05 ip-172-31-12-45 sudo: sysadmin : TTY=pts/1 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Jun 10 14:32:05 ip-172-31-12-45 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sysadmin(uid=1001)
+Jun 10 14:34:55 ip-172-31-12-45 sshd[1425]: Invalid user admin from 185.231.54.12 port 39018
+Jun 10 14:34:55 ip-172-31-12-45 sshd[1425]: Failed password for invalid user admin from 185.231.54.12 port 39018 ssh2
+Jun 10 14:34:56 ip-172-31-12-45 sshd[1425]: Connection closed by invalid user admin 185.231.54.12 port 39018 [preauth]
+Jun 10 14:35:01 ip-172-31-12-45 sshd[1428]: Invalid user administrator from 185.231.54.12 port 39032
+Jun 10 14:35:01 ip-172-31-12-45 sshd[1428]: Failed password for invalid user administrator from 185.231.54.12 port 39032 ssh2
+Jun 10 14:35:02 ip-172-31-12-45 sshd[1428]: Connection closed by invalid user administrator 185.231.54.12 port 39032 [preauth]
