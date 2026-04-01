@@ -53,3 +53,10 @@ By completing this challenge, learners will:
 ---
 
 ## Repository Structure
+
+---
+
+## Next Steps
+- Fork this repository and attempt the challenge.
+- Document your investigation process, not just the answers.
+- Share your findings with peers or submit via Issues/PRs.
