@@ -52,8 +52,18 @@ By completing this challenge, learners will:
 
 ---
 
+<<<<<<< HEAD
+=======
+## Repository Structure
+
+---
+
+>>>>>>> 547269e9b8601d1fe25d7104b89f85ee3c04ddf0
 ## Next Steps
 - Fork this repository and attempt the challenge.
 - Document your investigation process, not just the answers.
 - Share your findings with peers or submit via Issues/PRs.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 547269e9b8601d1fe25d7104b89f85ee3c04ddf0
