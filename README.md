@@ -51,6 +51,32 @@ By completing this challenge, learners will:
 - Develop recommendations for hardening SSH access.
 
 ---
+## Difficulty
+Beginner
+
+## Skills Tested
+- Linux log analysis
+- SSH authentication investigation
+- Suspicious activity detection
+
+---
+
+## Recommended Tools
+- grep
+- awk
+- less
+- VS Code
+- Notepad++|
+
+---
+
+## Dataset Info
+- Log file: logs/auth.log
+- Entries: ~150
+- Time window: ~45 minutes
+- Mixed normal and malicious activity
+
+---
 
 ## Next Steps
 - Fork this repository and attempt the challenge.
